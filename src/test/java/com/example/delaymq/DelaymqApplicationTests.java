@@ -24,7 +24,7 @@ class DelaymqApplicationTests {
 	@Test
 	public void send() {
 		messageService.sendDelayMsg(QueueConfig.DELAY_QUEUE,
-				"KEZIA MAULIDA, sent on : " + time);
+				"Test 123, sent on : " + time);
 	}
 
 	@Test
